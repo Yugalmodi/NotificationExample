@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.techpalle.notificationexample.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Enter Brief Info"
+         android:textSize="26sp"
+         android:textColor="#000"
+         android:id="@+id/edit_text_info"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        android:textSize="26sp"
+        android:textColor="#000"
+        android:id="@+id/edit_text_title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Detailed Info"
+        android:textSize="26sp"
+        android:textColor="#000"
+        android:id="@+id/edit_text_detail"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Extra Info"
+        android:textSize="26sp"
+        android:textColor="#000"
+        android:id="@+id/edit_text_extra_info"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="26sp"
+        android:textColor="#000"
+        android:id="@+id/button_submit"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:textSize="26sp"
+        android:textColor="#000"
+        android:id="@+id/button_update"/>
+</LinearLayout>
